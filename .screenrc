@@ -1,6 +1,6 @@
 msgwait 3
 sorendition 00 43
-hardstatus alwayslastline " %c | %w"
+hardstatus alwayslastline "[GNU Screen]%{kw} [Clock: %{kY}%c%{kw} Node: %{kr}%H%{kw}] [Tabs: %{kg} %w %{kw}]"
 bind h hardstatus ignore
 bind g hardstatus alwayslastline
 startup_message off
