@@ -6,3 +6,4 @@ bind g hardstatus alwayslastline
 logtstamp on
 vbell off
 startup_message off
+defshell -bash
