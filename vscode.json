@@ -1,10 +1,11 @@
 {
     "workbench.startupEditor": "none",
     "window.zoomLevel": 0,
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "explorer.compactFolders": false,
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.colorTheme": "OM Theme (No Italic)",
     "workbench.iconTheme": "material-icon-theme",
+    "window.titleBarStyle": "custom",
     "code-runner.runInTerminal": true,
     "code-runner.clearPreviousOutput": true,
     "code-runner.ignoreSelection": true,
@@ -13,5 +14,6 @@
         "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "python": "clear ; python3 -u",
         "shellscript": "clear ; bash"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc"
 }
